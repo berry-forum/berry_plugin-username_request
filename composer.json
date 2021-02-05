@@ -1,39 +1,40 @@
 {
-    "name": "fof/username-request",
-    "description": "Allow users to request new usernames",
-    "keywords": [
-        "flarum",
-        "Friends of Flarum"
-    ],
-    "type": "flarum-extension",
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.8"
+  "name": "starinc/nex_username-request",
+  "description": "Allow users to request new usernames",
+  "keywords": [
+    "settings"
+  ],
+  "homepage": "https://nex.starinc.xyz/",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SuperSonic",
+      "email": "supersonic@livemail.tw"
     },
-    "authors": [
-        {
-            "name": "Charlie K",
-            "email": "charlie.k@redevs.org",
-            "homepage": "https://redevs.org",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "FoF\\UserRequest\\": "src/"
-        }
-    },
-    "extra": {
-        "flarum-extension": {
-            "title": "FoF Username Request",
-            "icon": {
-                "name": "fas fa-user-edit",
-                "backgroundColor": "#e74c3c",
-                "color": "#fff"
-            }
-        },
-        "flagrow": {
-            "discuss": ""
-        }
+    {
+      "name": "Charlie K",
+      "email": "charlie.k@redevs.org",
+      "homepage": "https://redevs.org",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "flarum/core": "^0.1.0-beta"
+  },
+  "autoload": {
+    "psr-4": {
+      "FoF\\UserRequest\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "FoF Username Request",
+      "icon": {
+        "name": "fas fa-user-edit",
+        "backgroundColor": "#e74c3c",
+        "color": "#fff"
+      }
+    }
+  }
 }

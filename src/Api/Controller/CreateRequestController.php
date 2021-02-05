@@ -54,10 +54,6 @@ class CreateRequestController extends AbstractCreateController
     {
         $actor = $request->getAttribute('actor');
 
-        if (!$actor->checkPassword(array_get($request->getParsedBody(), 'meta.password'))) {
-            throw new PermissionDeniedException();
-        }
-
         return $this->bus->dispatch(
             new CreateRequest($actor, array_get($request->getParsedBody(), 'data', []))
         );

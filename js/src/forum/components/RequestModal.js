@@ -73,16 +73,6 @@ export default class FlagPostModal extends Modal {
                         />
                     </div>
                     <div className="Form-group">
-                        <input
-                            type="password"
-                            name="password"
-                            className="FormControl"
-                            placeholder={app.translator.trans('core.forum.change_email.confirm_password_placeholder')}
-                            bidi={this.password}
-                            disabled={this.loading}
-                        />
-                    </div>
-                    <div className="Form-group">
                         {Button.component({
                             className: 'Button Button--primary Button--block',
                             type: 'submit',

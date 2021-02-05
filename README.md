@@ -1,28 +1,25 @@
-# Username Request by FriendsOfFlarum
+# Nex
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/fof/username-request.svg)](https://packagist.org/packages/fof/username-request) [![OpenCollective](https://img.shields.io/badge/opencollective-fof-blue.svg)](https://opencollective.com/fof/donate)
+全方位的『超』自由論壇
+> 為壓力大想找人抒發，或者心中有小宇宙想找人分享的您
+>
+> 提供最棒的多元交流平台
 
-A [Flarum](http://flarum.org) extension. Allows users to request new usernames which can be approved by moderators or admins.
+![logo](nex.png)
 
-### Installation
+## 文章投票
 
-Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually with composer:
+以 [MIT License](LICENSE) 發行程式原始碼
 
-```sh
-composer require fof/username-request
-```
+    MIT License
+    
+    Copyright (c) 2021 Star Inc.
+    Copyright (c) 2019 FriendsOfFlarum
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Updating
-
-```sh
-composer update fof/username-request
-```
-
-### Links
-
-[<img src="https://opencollective.com/fof/donate/button@2x.png?color=blue" height="25" />](https://opencollective.com/fof/donate)
-
-- [Packagist](https://packagist.org/packages/fof/username-request)
-- [GitHub](https://github.com/FriendsOfFlarum/username-request)
-
-An extension by [FriendsOfFlarum](https://github.com/FriendsOfFlarum).
+> (c) 2021 [Star Inc.](https://starinc.xyz)

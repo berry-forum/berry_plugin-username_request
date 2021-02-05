@@ -7,7 +7,7 @@
 
 ![logo](nex.png)
 
-## 文章投票
+## 使用者名稱變更系統
 
 以 [MIT License](LICENSE) 發行程式原始碼
 
